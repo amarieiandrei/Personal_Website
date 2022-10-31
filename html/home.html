@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stdt. Andrei Amariei | Official Website</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/e2dfff9fc1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="../js/AsideLiveChat.js" defer></script> -->
+    <script src="../js/ajax.js" defer></script>
+  </head>
+
+  <body>
+    <div class="Container">
+      <header>
+        <a href="../html/home.html" class="Logo" style="color: #fff">
+          <div class="LogoCircleOutside">
+            <div class="LogoCircleInside">M</div>
+          </div>
+          <span class="LogoSpan">aliakademy</span>
+        </a>
+
+        <!-- <div class="Transition">PEEP THE VISION</div> -->
+
+        <a
+          href="../documents/Andrei-Amariei-Resume.pdf"
+          download="Andrei-Amariei-Resume"
+          class="Cv"
+        >
+          Download CV
+          <i class="fa-solid fa-arrow-down"></i>
+        </a>
+      </header>
+
+      <div class="Nvb-Main-Container">
+        <nav class="Navbar">
+          <ul class="NavbarMenu">
+            <li class="NavbarItem">
+              <a href="../html/home.html"> <span>00</span>Home </a>
+            </li>
+            <li class="NavbarItem">
+              <a href="../html/education.html"> <span>01</span>Education </a>
+            </li>
+            <li class="NavbarItem">
+              <a href="../html/portofolio.html"> <span>02</span>Portofolio </a>
+            </li>
+            <li class="NavbarItem">
+              <a href="../html/contact.html"> <span>03</span>Contact Me </a>
+            </li>
+            <li class="NavbarItem">
+              <a href="../html/services.html"> <span>04</span>Services </a>
+            </li>
+            <li class="NavbarItem">
+              <a href="../html/domainsInterest.html">
+                <span>05</span>Domains of interest
+              </a>
+            </li>
+            <li class="NavbarItem">
+              <a href="../html/signUp.html"> <span>06</span>Sign Up </a>
+            </li>
+            <li class="NavbarItem">
+              <a href="mailto:amarieiandrei60@gmail.com?subject=Salutare!">
+                <span>07</span>Mail
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <main>
+          <div class="MainFocus">
+            <div class="BehindImg">
+              <img src="../img/Me.png" alt="myPhoto" class="Me" />
+              <div class="BehindMe"></div>
+            </div>
+            <p class="NameText"><strong>Andrei Amariei</strong></p>
+            <p class="DescriptionText">STUDENT // SOFTWARE DEVELOPER</p>
+
+            <button class="LiveChat" id="LiveChatID">LET'S<br />TALK</button>
+
+            <div class="line"></div>
+            <div class="arrow"></div>
+          </div>
+
+          <aside class="Asidebar">
+            <ul class="AsidebarMenu" id="AsidebarMenuID">
+              <li class="AsidebarItem">
+                <a href="https://www.facebook.com/andrei.amariei.129/">
+                  <span
+                    class="fa-brands fa-facebook"
+                    style="color: #fff"
+                  ></span>
+                </a>
+              </li>
+              <li class="AsidebarItem">
+                <a href="https://github.com/amarieiandrei">
+                  <span class="fa-brands fa-github" style="color: #fff"></span>
+                </a>
+              </li>
+              <li class="AsidebarItem">
+                <a href="https://www.linkedin.com/in/amariei-andrei/">
+                  <span
+                    class="fa-brands fa-linkedin"
+                    style="color: #fff"
+                  ></span>
+                </a>
+              </li>
+            </ul>
+          </aside>
+
+          <!-- <aside class="AsideLiveChat" id="AsideLiveChatID">
+            <section class="chat-area">
+              <div class="AsideHeader">
+                <a href="users.php" class="back-icon"
+                  ><i class="fas fa-arrow-left"></i
+                ></a>
+                <img src="php/images/<?php echo $row['img']; ?>" alt="" />
+                <img src="../img/Andrei.jpg" alt="" class="AsideHeaderImg" />
+                <div class="details">
+                  <span><?php echo $row['fname']. " " . $row['lname'] ?></span>
+                  <span class="AsideHeaderSpan">Andrei Amariei</span>
+                  <p><?php echo $row['status']; ?></p>
+                  <p style="color: #fff">Active now</p>
+                </div>
+              </div>
+
+              <div class="chat-box" id="chat-box-id"></div>
+
+              <form action="#" class="typing-area">
+                <input
+                  type="text"
+                  class="incoming_id"
+                  name="incoming_id"
+                  value="<?php echo $user_id; ?>"
+                  hidden
+                />
+                <input
+                  type="text"
+                  name="message"
+                  class="input-field"
+                  id="message-need"
+                  placeholder="Type a message here..."
+                />
+                <span onclick="loadDoc()"
+                  ><i class="fab fa-telegram-plane"></i
+                ></span>
+              </form>
+            </section>
+          </aside> -->
+        </main>
+      </div>
+      <footer>
+        <p class="CopyrightText">© Andrei Amariei, All Rights Reserved</p>
+        <div class="PolicyContainer">
+          <div class="Cv">
+            <a
+              href="../documents/Andrei-Amariei-Privacy-Policy.pdf"
+              target="_blank"
+              class="PolicyText"
+              >Privacy Policy</a
+            >
+          </div>
+        </div>
+        <!-- <a href="https://validator.w3.org/">Verifica codul</a> -->
+      </footer>
+    </div>
+  </body>
+</html>

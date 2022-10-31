@@ -1,0 +1,18 @@
+html {
+    background-color: #845ec2;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+.Container {
+    display: grid;
+    place-content: center;
+}
+
+header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: grid;
+    place-content: center;
+    margin: 25% 0 15% 0;
+}
