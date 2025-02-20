@@ -1,4 +1,4 @@
-# My_First_Project_Personal_Website
+# Personal_Website
 
 This project is my personal website.
 
